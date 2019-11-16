@@ -1,0 +1,397 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:visited {
+  color: inherti;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=reset.css.map */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Courier',sans-serif;
+}
+
+.wrap-right {
+  padding-left: 15%;
+}
+
+.wrap {
+  padding: 0 60px;
+}
+
+.title {
+  font-size: 45px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.top {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+.top .header {
+  width: 15%;
+  height: 100%;
+  background-image: linear-gradient(#0a420a, green);
+}
+.top .header .header-logo {
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  padding: 45px 40px;
+}
+.top .header .header-logo .logo-2 {
+  padding-top: 20px;
+}
+.top .header .header-nav {
+  text-align: center;
+  height: 120px;
+  margin-top: 120px;
+}
+.top .header .header-nav ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top .header .header-nav ul li {
+  color: white;
+  font-size: 20px;
+}
+.top .first-view {
+  width: 85%;
+  height: 600px;
+  display: flex;
+}
+.top .first-view .box-1 {
+  width: 50%;
+  height: 600px;
+  overflow: hidden;
+}
+.top .first-view .box-1 img {
+  height: 100%;
+}
+.top .first-view .box-wrap-1 {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.top .first-view .box-wrap-1 .box-2 {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+.top .first-view .box-wrap-1 .box-2 img {
+  width: 100%;
+}
+.top .first-view .box-wrap-1 .box-wrap-2 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.top .first-view .box-wrap-1 .box-wrap-2 .box-3 {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.top .first-view .box-wrap-1 .box-wrap-2 .box-3 img {
+  height: 100%;
+}
+.top .first-view .box-wrap-1 .box-wrap-2 .box-4 {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.top .first-view .box-wrap-1 .box-wrap-2 .box-4 img {
+  height: 100%;
+}
+
+#about {
+  padding: 60px 0;
+  color: green;
+}
+#about .about-wrap {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#about .about-wrap .container-1 {
+  width: 100%;
+  height: 52%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+#about .about-wrap .container-1 .about-img-1 {
+  width: 52%;
+  height: 100%;
+  overflow: hidden;
+}
+#about .about-wrap .container-1 .about-img-1 img {
+  width: 100%;
+  transform: translateY(-100px);
+}
+#about .about-wrap .container-1 .about-text-1 {
+  font-size: 20px;
+}
+#about .about-wrap .container-1 .about-text-1 p {
+  padding: 0 0 15px 100px;
+}
+#about .about-wrap .container-1 .about-text-1 p span {
+  font-size: 24px;
+  font-weight: bold;
+}
+#about .about-wrap .container-2 {
+  width: 100%;
+  height: 52%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+#about .about-wrap .container-2 .about-img-2 {
+  width: 52%;
+  height: 100%;
+  overflow: hidden;
+}
+#about .about-wrap .container-2 .about-img-2 img {
+  width: 100%;
+  transform: translateY(-100px);
+}
+#about .about-wrap .container-2 .about-text-2 {
+  font-size: 20px;
+}
+#about .about-wrap .container-2 .about-text-2 p {
+  padding-bottom: 15px;
+}
+#about .about-wrap .container-2 .about-text-2 p:first-child {
+  padding-top: 30px;
+}
+
+#photo {
+  width: 100%;
+  color: white;
+  background-image: linear-gradient(#0a420a, green);
+  padding: 60px 0;
+}
+#photo .photo-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#photo .photo-wrap .photo-img-1 {
+  height: 250px;
+  width: 28%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+#photo .photo-wrap .photo-img-1 img {
+  height: 100%;
+}
+#photo .photo-wrap .photo-img-2 {
+  height: 250px;
+  width: 28%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+#photo .photo-wrap .photo-img-2 img {
+  height: 100%;
+}
+#photo .photo-wrap .photo-img-3 {
+  height: 250px;
+  width: 39%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+#photo .photo-wrap .photo-img-3 img {
+  width: 100%;
+}
+#photo .photo-wrap .photo-img-4 {
+  height: 300px;
+  width: 65%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+#photo .photo-wrap .photo-img-4 img {
+  width: 100%;
+  transform: translateY(-60px);
+}
+#photo .photo-wrap .photo-img-5 {
+  height: 300px;
+  width: 32%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+#photo .photo-wrap .photo-img-5 img {
+  height: 100%;
+}
+
+#access {
+  width: 100%;
+  padding-top: 60px;
+}
+#access .title {
+  color: green;
+}
+#access .access-wrap {
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+#access .access-wrap .map-wrap {
+  width: 60%;
+  height: 55%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 10;
+}
+#access .access-wrap .map-wrap iframe {
+  width: 100%;
+}
+#access .access-wrap .access-text-wrap {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(150deg, #0a420a, green);
+}
+#access .access-wrap .access-text-wrap p {
+  color: white;
+  font-size: 24px;
+  padding: 80px 0 0 60px;
+}
+#access .access-wrap .access-text-wrap p.first-p {
+  padding-top: 120px;
+}
+
+footer {
+  width: 100%;
+  height: 140px;
+  color: green;
+}
+footer .footer-logo {
+  font-size: 18px;
+  line-height: 140px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

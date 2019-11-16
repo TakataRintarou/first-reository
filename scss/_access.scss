@@ -1,0 +1,40 @@
+#access {
+    width: 100%;
+    padding-top: 60px;
+    .title {
+        color: green;
+    }
+    .access-wrap {
+        width: 100%;
+        height: 700px;
+        position: relative;
+        .map-wrap {
+            width: 60%;
+            height: 55%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            overflow: hidden;
+            z-index: 10;
+            iframe {
+                width: 100%;
+            }
+        }
+        .access-text-wrap {
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-image: linear-gradient(150deg, $darkgreen, green);
+            p {
+                color: white;
+                font-size: 24px;
+                padding: 80px 0 0 60px;
+                &.first-p {
+                    padding-top: 120px;
+                }
+            }
+        }
+    }
+}

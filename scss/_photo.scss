@@ -1,0 +1,58 @@
+#photo {
+    width: 100%;
+    color: white;
+    background-image: linear-gradient($darkgreen, green);
+    padding: 60px 0;
+    .photo-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .photo-img-1 {
+            height: 250px;
+            width: 28%;
+            overflow: hidden;
+            margin-top: 30px;
+            img {
+                height: 100%;
+            }
+        }
+        .photo-img-2 {
+            height: 250px;
+            width: 28%;
+            overflow: hidden;
+            margin-top: 30px;
+            img {
+                height: 100%;
+            }
+        }
+        .photo-img-3 {
+            height: 250px;
+            width: 39%;
+            overflow: hidden;
+            margin-top: 30px;
+            img {
+                width: 100%;
+            }
+        }
+        .photo-img-4 {
+            height: 300px;
+            width: 65%;
+            overflow: hidden;
+            margin-top: 30px;
+            img {
+                width: 100%;
+                transform: translateY(-60px);
+            }
+        }
+        .photo-img-5 {
+            height: 300px;
+            width: 32%;
+            overflow: hidden;
+            margin-top: 30px;
+            img {
+                height: 100%;
+            }
+        }
+    }
+}
